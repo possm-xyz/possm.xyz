@@ -8,9 +8,15 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+import styles from "~/styles/App.css";
+
+export const links = () => {
+  return [{ rel: "stylesheet", href: styles }];
+}
+
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "pOsSm /* Private Operating System & Social Media */",
   viewport: "width=device-width,initial-scale=1",
 });
 
