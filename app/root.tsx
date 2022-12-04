@@ -10,9 +10,13 @@ import {
 
 import styles from "~/styles/App.css";
 
+import { Header } from "~/components/Header/Header";
+import { Footer } from "~/components/Footer/Footer";
+
 export const links = () => {
   return [
-    { rel: "stylesheet", href: styles }
+    { rel: "stylesheet", href: styles },
+    { rel: 'icon', type: 'image/x-icon', href: '~/assets/images/favicon.ico' }
   ];
 }
 
@@ -30,10 +34,14 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Outlet />
-        <ScrollRestoration />
-        <Scripts />
-        <LiveReload />
+        <div className="root">
+          <Header />
+          <Outlet />
+          <Footer />
+          <ScrollRestoration />
+          <Scripts />
+          <LiveReload />
+        </div>
       </body>
     </html>
   );

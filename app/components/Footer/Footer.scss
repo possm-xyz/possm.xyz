@@ -1,0 +1,11 @@
+@use '../../styles/partials/mixins' as *;
+
+.footer {
+  width: 100%;
+  height: 15rem;
+  background: #5C4742;
+  margin-bottom: 2rem;
+  @include desktop {
+    margin-bottom: 0;
+  }
+}
