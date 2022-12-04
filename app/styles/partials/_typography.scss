@@ -2,3 +2,73 @@
   font-family: 'pOsSm';
   src: url('~/assets/fonts/possm.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'pOsSm mono';
+  src: url('~/assets/fonts/mono/possmMono-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pOsSm mono';
+  src: url('~/assets/fonts/mono/possmMono-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'pOsSm mono';
+  src: url('~/assets/fonts/mono/possmMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pOsSm mono';
+  src: url('~/assets/fonts/mono/possmMono-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'pOsSm mono';
+  src: url('~/assets/fonts/mono/possmMono-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pOsSm mono';
+  src: url('~/assets/fonts/mono/possmMono-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'pOsSm mono';
+  src: url('~/assets/fonts/mono/possmMono-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pOsSm mono';
+  src: url('~/assets/fonts/mono/possmMono-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'pOsSm mono';
+  src: url('~/assets/fonts/mono/possmMono-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pOsSm mono';
+  src: url('~/assets/fonts/mono/possmMono-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}

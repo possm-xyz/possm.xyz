@@ -6,7 +6,7 @@ export default function Index() {
       <div className="home__logo">
         <POsSmIcon />
       </div>
-      pOsSm
+      <h1>pOsSm</h1>
     </div>
   );
 }

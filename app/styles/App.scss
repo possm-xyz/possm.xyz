@@ -10,10 +10,15 @@
 
 body {
   margin: 0;
-  font-family: pOsSm;
-  //background: hsla(50, 100%, 58%, 1);
+  font-family: 'pOsSm mono';
   background: #eee url('~/assets/images/nobg.png');
   color: 	hsl(0, 67%, 63%, 1);
+}
+
+h1 {
+  font-family: pOsSm;
+  font-size: 6rem;
+  margin: 0;
 }
 
 .root {
@@ -38,4 +43,51 @@ body {
 .home__logo {
   width: 18rem;
   margin: -7rem 0 -5rem -4rem;
+}
+
+.backsplash {
+  position:relative;
+  display: flex;
+  height: 58px;
+  width: 50%;
+  background-image: url('~/assets/images/backsplash_mid-repeat.png');
+  align-items: center;
+  margin-left: 40px;
+  transform: rotate(1.25deg);
+  @include tablet {
+    margin-left: 0;
+  }
+  &:before, &:after {
+    content: "";
+    height: 58px;
+    display: block;
+    position:absolute;
+  }
+  &:before {
+    background-image: url('~/assets/images/backsplash_right.png');
+    width: 35px;
+    margin-left: -33px;
+    transform: scaleX(-1);
+  }
+  &:after {
+    background-image: url('~/assets/images/backsplash_right.png');
+    width: 35px;
+    right: -35px;
+    transform: scaleY(-1);
+  }
+  & input {
+    transform: rotate(-1.25deg);
+  }
+}
+
+input {
+  background: 	hsla(12, 16%, 51%, 1);
+  border: 0;
+  border-bottom: 3px hsla(12, 16%, 71%, 1) solid;
+  border-radius: 8px;
+  height: 70%;
+  width: 100%;
+  color: #fff;
+  font-family: 'pOsSm mono';
+  padding: 0 10px;
 }
